@@ -1,0 +1,18 @@
+[{
+    "owner": "jacobgadikian",
+    "url": "seed1.blurt.world:2001",
+    "country": "Germany",
+    "city": "Nuremberg",
+    "latlong": [49.447780, 11.068330],
+    "ip": "88.198.76.136",
+	"status":"offline"
+  }, {
+    "owner": "baabeetaa",
+    "url": "seed2.blurt.world:2001",
+    "country": "United Kingdom",
+    "city": "Falkenstein",
+    "latlong": [50.477880, 12.371290],
+    "ip": "78.46.137.254",
+	"status":"offline"
+  }
+]
