@@ -8,7 +8,8 @@
     "serve": "vue-cli-service serve",
     "serve-testnet": "NODE_ENV=testnet vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "npm run build && gh-pages -d docs"
   },
   "dependencies": {
     "@blurtfoundation/blurtjs": "^0.1.1",
@@ -26,6 +27,7 @@
     "eftg-dsteem": "^2.2.0",
     "file-saver": "^2.0.2",
     "firebase": "^7.6.1",
+    "gh-pages": "^4.0.0",
     "leaflet.icon.glyph": "^0.2.0",
     "lodash.debounce": "4.0.8",
     "marked": "^0.6.1",
